@@ -12,7 +12,7 @@ int main () {
     cout << " ***Welcome to ReinaCode***"
          << "1.LOGIN"<< endl;
          << "2.REGISTER"<< endl;
-         << "3.FORGOT PASSWORD <<endl;
+         << "3.FORGOT PASSWORD" <<endl;
          << "4.USERNAME" << endl;
          << "5.EXIT" << endl;
          
