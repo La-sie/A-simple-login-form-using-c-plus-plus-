@@ -1,10 +1,13 @@
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;
 
 int main () {
     int password = sella2367;
     bool isTrue; 
+ 
+    system ("Color E4");
     
     cout << " ***Welcome to ReinaCode***"
          << "1.LOGIN"<< endl;
