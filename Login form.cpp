@@ -5,10 +5,10 @@ using namespace std;
 
 int main () {
     int password = sella2367;
-    bool isTrue; 
+    bool isTrue = true; 
  
     system ("Color E4");
-    
+    do {
     cout << " ***Welcome to ReinaCode***"
          << "1.LOGIN"<< endl;
          << "2.REGISTER"<< endl;
@@ -21,6 +21,7 @@ int main () {
      if (pin == password ) {
          
      }
-     
+  }
+     while ( isTrue = false);
     return 0;
 }
