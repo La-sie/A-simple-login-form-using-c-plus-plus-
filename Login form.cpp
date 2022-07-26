@@ -4,26 +4,25 @@
 using namespace std;
 
 int main () {
-    int password = sella2367;
-    string optionNumber;
-    bool isTrue = true; 
+    string password = "sella2367";
+    string userName = "Reina";
+    string pin;
+    string name;
+    
  
     system ("Color E4");
     
     cout << " ***Welcome to ReinaCode***"<< endl;
-    cout << "1.LOGIN"<< endl;
-    cout << "2.REGISTER"<< endl;
-    cout << "3.FORGOT PASSWORD" <<endl;
-    cout << "4.USERNAME" << endl;
-    cout << "5.EXIT" << endl;
+    cout << "-------------------------------------------------------" << endl;
+    cout << "Username : " << endl;
+    cin >> name;
+    cout << "Password " << endl,
+    cin >> pin;
     cout << "-------------------------------------------------------" << endl;
 
 
-    cout << "Choose an option" << endl;
-    cin >> optionNumber;
-
-     if (pin == password ) {
-            cout << "***Welcome to ReinaCode***";
+     if (pin == password && userName == name ) {
+            cout << "Welcome " << name << " to ReinaCode";
      }
      else {
             cout << "Please enter a correct password" << endl;
