@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 
+
 using namespace std;
 
 int main () {
@@ -8,10 +9,13 @@ int main () {
     string userName = "Reina";
     string pin;
     string name;
-    
+    int entryAttempt = 0;
  
     system ("Color B0");
     
+    while (entryAttempt <= 5){
+    
+    cout << "-------------------------------------------------------" << endl;
     cout << " ***Welcome to ReinaCode***"<< endl;
     cout << "-------------------------------------------------------" << endl;
     cout << "Username : " << endl;
@@ -26,6 +30,10 @@ int main () {
      }
      else {
             cout << "Please enter a correct password" << endl;
+            entryAttempt++;
        }
+     if (entryAttempt == 5) {
+        cout << "Try again after 1 hour" << endl;
     return 0;
+       }
 }
