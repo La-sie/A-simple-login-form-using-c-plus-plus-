@@ -5,6 +5,7 @@ using namespace std;
 
 int main () {
     int password = sella2367;
+    string optionNumber;
     bool isTrue = true; 
  
     system ("Color E4");
@@ -17,10 +18,14 @@ int main () {
          << "5.EXIT" << endl;
          
      cout << "Choose an option" << endl;
-     
+     cin >> optionNumber;
+
      if (pin == password ) {
          
      }
+     else {
+    
+       }
   }
      while ( isTrue = false);
     return 0;
