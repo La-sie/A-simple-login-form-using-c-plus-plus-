@@ -10,13 +10,13 @@ int main () {
     string name;
     
  
-    system ("Color E4");
+    system ("Color B0");
     
     cout << " ***Welcome to ReinaCode***"<< endl;
     cout << "-------------------------------------------------------" << endl;
     cout << "Username : " << endl;
     cin >> name;
-    cout << "Password " << endl,
+    cout << "Password :" << endl,
     cin >> pin;
     cout << "-------------------------------------------------------" << endl;
 
