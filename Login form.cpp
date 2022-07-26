@@ -9,24 +9,24 @@ int main () {
     bool isTrue = true; 
  
     system ("Color E4");
-    do {
-    cout << " ***Welcome to ReinaCode***"
-         << "1.LOGIN"<< endl;
-         << "2.REGISTER"<< endl;
-         << "3.FORGOT PASSWORD" <<endl;
-         << "4.USERNAME" << endl;
-         << "5.EXIT" << endl;
-         
-     cout << "Choose an option" << endl;
-     cin >> optionNumber;
+    
+    cout << " ***Welcome to ReinaCode***"<< endl;
+    cout << "1.LOGIN"<< endl;
+    cout << "2.REGISTER"<< endl;
+    cout << "3.FORGOT PASSWORD" <<endl;
+    cout << "4.USERNAME" << endl;
+    cout << "5.EXIT" << endl;
+    cout << "-------------------------------------------------------" << endl;
+
+
+    cout << "Choose an option" << endl;
+    cin >> optionNumber;
 
      if (pin == password ) {
-         
+            cout << "***Welcome to ReinaCode***";
      }
      else {
-    
+            cout << "Please enter a correct password" << endl;
        }
-  }
-     while ( isTrue = false);
     return 0;
 }
