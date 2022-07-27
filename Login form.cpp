@@ -32,6 +32,7 @@ int main () {
             cout << "Please enter a correct password" << endl;
             entryAttempt++;
        }
+    }
      if (entryAttempt == 5) {
         cout << "Try again after 1 hour" << endl;
     return 0;
