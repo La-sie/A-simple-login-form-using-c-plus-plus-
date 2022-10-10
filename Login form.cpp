@@ -7,7 +7,7 @@ using namespace std;
 int main () {
     string password = "sella2367";
     string userName = "Reina";
-    string pin;
+    string pincode;
     string name;
     int entryAttempt = 0;
  
@@ -21,7 +21,7 @@ int main () {
     cout << "Username : " << endl;
     cin >> name;
     cout << "Password :" << endl,
-    cin >> pin;
+    cin >> pincode;
     cout << "-------------------------------------------------------" << endl;
 
 
